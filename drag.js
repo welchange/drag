@@ -1,1 +1,3 @@
-var a = 1;
+function drag(){
+	
+}
