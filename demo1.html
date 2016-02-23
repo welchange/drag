@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+    #div1{
+        width: 200px;
+        height: 200px;
+        background-color: #f00;
+        position: absolute;
+    }
+    </style>
+    <script type="text/javascript" src="drag.js"></script>
 </head>
 <body>
-<div id="a"></div>
+<div id="div1"></div>
+<script type="text/javascript">
+    drag('div1');
+</script>
 </body>
 </html>
